@@ -1,7 +1,9 @@
 #include <iostream>
-using namespace std;
-bool gameOver;
+#include <conio.h>
 
+using namespace std;
+
+bool gameOver;
 const int width = 20;
 const int height = 20;
 int x,y, fruitX, fruitY, score; //Hoofd en fruit positie
@@ -36,6 +38,11 @@ void DrawWall()
           {
             if (j==0)
                cout << "#"; // als j = 0 dan print hij # anders een spactie
+            if (i == y && j == x)
+               cout << "O"; //print hoofd
+
+            else if (i == fruitY && j == fruitX)
+               cout << "F"; // print Fruit
                cout << " ";
 
             if (j == width - 1)
@@ -51,11 +58,48 @@ void DrawWall()
 }
 void Input()
 {
+    if(_kbhit()) // boolean
+    {
+        switch (_getch()) // deze geeft gedrukte value terug
+        {
+        case 'q':
+            dir = LEFT;
+            break;
 
+        case 'd':
+            dir = RIGHT;
+            break;
+
+        case 'z':
+            dir = UP;
+            break;
+
+        case 'w':
+            dir = DOWN;
+            break;
+
+            gameOver = true;
+            break;
+        }
+    }
 }
 void Logic()
 {
+    switch (dir) {
 
+    case STOP:
+        break;
+    case LEFT:
+        break;
+    case RIGHT:
+        break;
+    case UP:
+        break;
+    case DOWN:
+        break;
+    default:
+        break;
+    }
 }
 int main()
 {
