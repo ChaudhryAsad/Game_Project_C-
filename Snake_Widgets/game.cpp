@@ -1,15 +1,11 @@
 #include "game.h"
-#include "ui_mainwindow.h"
 
-MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent)
-    , ui(new Ui::MainWindow)
-{
-    ui->setupUi(this);
-}
+#include <QPainter> ///The QPainter class performs low-level painting on widgets and other paint devices
+#include <QApplication> ///The QApplication class manages the GUI application's control flow and main settings
+#include <QThread> ///The QThread class provides a platform-independent way to manage threads
 
-MainWindow::~MainWindow()
-{
-    delete ui;
-}
+#include <stdio.h>
+#include <stdlib.h>
+#include <iostream>
+#include <string>
 
