@@ -9,3 +9,13 @@
 #include <iostream>
 #include <string>
 
+Game::Game(QWidget *parent) : /*QDesktopWidget*/QWidget(parent)
+{
+    x = 0;
+    score = 0;
+    highscore = 0;
+    gameOver = false;
+    paused = false;
+    gameStarted = false;
+    snake = new Snake(250, 350, 5); ///230 , 355 , 5
+}
