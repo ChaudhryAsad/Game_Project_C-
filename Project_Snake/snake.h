@@ -1,18 +1,19 @@
 #ifndef SNAKE_H
 #define SNAKE_H
 
-#include <QImage>
+#include <QImage>/* 37 : QT class*/
 #include <QRect>
 #include <stdio.h>
 #include <stdlib.h>
 #include <list>
 
-class Snake
+class Snake /*2: usefull class */
 {
 public:
   Snake(int,int,int);
   ~Snake(); /* 14 : destructors */
-//Destructor is an instance member function which is invoked automatically whenever an object is going to be destroyed.
+///Destructor is an instance member function which is invoked automatically whenever an object is going to be destroyed.
+
 public:
   enum Direction { UP, DOWN, LEFT, RIGHT };
   struct Segment
@@ -31,7 +32,8 @@ public:
 
   Direction dir;
   typedef std::list<Segment> SegmentList; /* 36 : Container Class */
-//A container is a holder object that stores a collection of other objects (its elements).
+///A container is a holder object that stores a collection of other objects (its elements).
+
   QImage image;
   SegmentList segments;
 

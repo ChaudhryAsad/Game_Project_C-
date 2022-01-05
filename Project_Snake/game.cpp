@@ -18,4 +18,5 @@ Game::Game(QWidget *parent) : /*QDesktopWidget*/QWidget(parent)
     paused = false;
     gameStarted = false;
     snake = new Snake(250, 350, 5); ///230 , 355 , 5
+
 }

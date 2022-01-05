@@ -1,10 +1,10 @@
 #include "snake.h"
 #include <iostream>
-#include <QRect> //he QRect class defines a rectangle in the plane using integer precision.
+#include <QRect> ///The QRect class defines a rectangle in the plane using integer precision.
 
 Snake::Snake(int x, int y, int growToSize): numQueuedSegments(growToSize)
 {
-    image.load(":/images/snake.png");// pakt snake image van de dir images
+    image.load(":/images/snake.png");/// pakt snake image van de dir images
 
     QRect head;
     head = image.rect();
