@@ -4,7 +4,7 @@
 
 Snake::Snake(int x, int y, int growToSize): numQueuedSegments(growToSize)
 {
-    image.load(":/images/snake.png");/// pakt snake image van de dir images
+    image.load(":/images/snake.png");// pakt snake image van de dir images
 
     QRect head;
     head = image.rect();

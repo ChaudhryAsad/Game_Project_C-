@@ -47,8 +47,7 @@ private:
     int timerId;
     unsigned char score; /* 26 : Unsinged char */
     unsigned char highscore;
-    unsigned char oldScore;
-    Food *food; // door cherry kan deze gelezen worden
+    Food *food; // door cherry.h kan deze gelezen worden
     Snake *snake;
     bool gameOver; /* 30 : 4 Usefull BOOL */
     bool gameStarted;

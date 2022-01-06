@@ -2,7 +2,7 @@
 
 Cherry::Cherry(int x, int y) : Food(x,y) /* 17 : default values in function definition */
 {
-    image.load(":/images/food.png");
+    image.load(":/images/cherry.png");
     rect = image.rect();
     rect.translate(x, y);
 }

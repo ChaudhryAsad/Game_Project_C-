@@ -37,9 +37,11 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 DISTFILES += \
 food.png \
 food1.png \
+    images/cherry.png \
 images/food.png \
-images/food1.png \
 images/food2.png \
+    images/mango.png \
+    images/mouse.png \
 images/snake.png \
 snake.png
 

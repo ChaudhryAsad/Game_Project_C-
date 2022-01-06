@@ -70,9 +70,11 @@ OBJECTS       = release/main.o \
 
 DIST          = food.png \
 		food1.png \
+		images/cherry.png \
 		images/food.png \
-		images/food1.png \
 		images/food2.png \
+		images/mango.png \
+		images/mouse.png \
 		images/snake.png \
 		snake.png ..\Project_Snake\cherry.h \
 		..\Project_Snake\food.h \
@@ -130,10 +132,10 @@ compiler_rcc_clean:
 	-$(DEL_FILE) release\qrc_images.cpp
 release/qrc_images.cpp: ../Project_Snake/images.qrc \
 		C:/Qt/5.15.0/mingw81_64/bin/rcc.exe \
-		../Project_Snake/images/food2.png \
+		../Project_Snake/images/mango.png \
 		../Project_Snake/images/snake.png \
-		../Project_Snake/images/food1.png \
-		../Project_Snake/images/food.png
+		../Project_Snake/images/cherry.png \
+		../Project_Snake/images/mouse.png
 	C:\Qt\5.15.0\mingw81_64\bin\rcc.exe -name images ..\Project_Snake\images.qrc -o release\qrc_images.cpp
 
 compiler_moc_predefs_make_all: release/moc_predefs.h

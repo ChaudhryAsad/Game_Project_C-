@@ -85,9 +85,14 @@ void Game::paintEvent(QPaintEvent *event) /* 56 : GUI */
     {
         QFont font("Courier", 10, QFont::DemiBold);
         int w = width();
-
+//--------------------------------------------------------------------------
+//Score word geteld telken wanneer snake fruit eet.
+//Oude score blijft zo kan je zien hoeveel je vorige spel had.
+//Er wordt telkens new fruit aan gemaakt
+//--------------------------------------------------------------------------
         painter.setFont(font);
-        painter.drawText(QPoint(w/2-35, 10), "Score: " + QString::number(oldScore));
+        painter.drawText(QPoint(w/-110, 10), "Old score: " + QString::number(highscore));
+        painter.drawText(QPoint(w/2, 10), "Score: " + QString::number(score));
         painter.drawImage(food->getRect(), food->getImage());
 
         Snake::SegmentIterator iter;
@@ -109,6 +114,7 @@ void Game::timerEvent(QTimerEvent *event)
 
 //--------------------------------------------------------------------------
 //Volgende toetsen worden voor het spel gebruikt.
+//Je kunt gewoon de pijlen van toesten bord gebruiken
 //--------------------------------------------------------------------------
 
 void Game::keyPressEvent(QKeyEvent *event)
@@ -186,6 +192,7 @@ void Game::stopGame()
 
 //--------------------------------------------------------------------------
 // food,muis en mango worden verschillende plaatsen gegeneert
+// Als de snake food raakt wordt het destoryed
 //--------------------------------------------------------------------------
 
 void Game::checkCollision()
