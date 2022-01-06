@@ -4,7 +4,7 @@
 #include "food.h" /* 25 : Seperated header file */
 /*using namespace std; */
 
-class Cherry : public Food /* 6 : Inheritance , 23 : Namespaces */
+class Cherry : public Food /* 4 : Inheritance , 23 : Namespaces */
 ///Inheritance allows us to define a class in terms of another class, which makes it easier to create and maintain an application.
 {
 public:

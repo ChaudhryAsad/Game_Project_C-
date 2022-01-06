@@ -17,7 +17,7 @@ Game::Game(QWidget *parent) : /*QDesktopWidget*/QWidget(parent)
 {
     x = 0;
     highscore = 0;
-    oldScore = 0;
+    score = 0;
     gameOver = false;
     paused = false;
     gameStarted = false;
@@ -69,10 +69,10 @@ void Game::paintEvent(QPaintEvent *event) /* 56 : GUI */
         else
         {
             int textWidth2 = fm.width("Last Score: ");
-            int textWidth3 = fm.width(QString::number(oldScore));
+            int textWidth3 = fm.width(QString::number(score));
 
             painter.drawText(-textWidth2/2, 20, "Last Score: ");
-            painter.drawText(-textWidth3/2, 40, QString::number(oldScore));
+            painter.drawText(-textWidth3/2, 40, QString::number(score));
 
             int textWidth4 = fm.width("High Score: ");
             int textWidth5 = fm.width(QString::number(highscore));

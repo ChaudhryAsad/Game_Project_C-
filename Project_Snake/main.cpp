@@ -30,13 +30,13 @@ void center(QWidget &widget)
 
 int main(int argc, char *argv[]) /* Dit start het gui scherm / 48 : Command line paramter , pass value*/
 {
-    QApplication a(argc, argv);/* 31 : Pointer declaration */
+    QApplication app(argc, argv);/* 31 : Pointer declaration */
 
     Game w;
     w.setWindowTitle("Snake");
     w.show();
+    center(w);
 
-
-    return a.exec();
+    return app.exec();
 }
 
