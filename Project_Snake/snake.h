@@ -3,6 +3,7 @@
 
 #include <QImage>/* 37 : QT class*/
 #include <QRect>
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <list>

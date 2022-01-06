@@ -1,8 +1,3 @@
-
-
-
-
-
 QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
@@ -16,14 +11,19 @@ TEMPLATE = app
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += main.cpp\
+    cherry.cpp \
     food.cpp \
     game.cpp \
-    main.cpp \
+    mango.cpp \
+    muis.cpp \
     snake.cpp
 
 HEADERS += \
+    cherry.h \
     food.h \
     game.h \
+    mango.h \
+    muis.h \
     snake.h
 
 FORMS += \

@@ -1,0 +1,10 @@
+debug/main.o
+debug/cherry.o
+debug/food.o
+debug/game.o
+debug/main.o
+debug/mango.o
+debug/muis.o
+debug/snake.o
+debug/qrc_images.o
+debug/moc_game.o

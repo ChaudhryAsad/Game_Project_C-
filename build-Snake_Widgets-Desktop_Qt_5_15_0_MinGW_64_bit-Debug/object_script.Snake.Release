@@ -1,0 +1,10 @@
+release/main.o
+release/cherry.o
+release/food.o
+release/game.o
+release/main.o
+release/mango.o
+release/muis.o
+release/snake.o
+release/qrc_images.o
+release/moc_game.o

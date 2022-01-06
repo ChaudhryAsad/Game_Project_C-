@@ -9,9 +9,8 @@ class Food /* 7 : Base class */
 {
 
 public:
-Food(int, int); /* 10 : default  Constructor */
-///Default constructor is the constructor which doesn’t take any argument.
-///It has no parameters.
+Food(int, int); /* 11 : parameterized Constructor */
+///Parameterized Constructor pass arguments to constructors. Typically, these arguments help initialize an object when it is created.
 
 ~Food(); /* 14 : Deconstructor */
 

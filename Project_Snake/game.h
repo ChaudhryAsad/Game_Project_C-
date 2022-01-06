@@ -2,6 +2,8 @@
 #define GAME_H
 
 #include "snake.h"
+#include "cherry.h"
+
 #include <QMainWindow>
 #include <QKeyEvent>
 #include <QWidget>
@@ -26,6 +28,7 @@ public:
 protected:
   void paintEvent(QPaintEvent *event);
   void timerEvent(QTimerEvent *event); // 49 : useful usage of signals/slots , timer = function from a class this is called everywhere
+
 ///Signals and slots are used for communication between objects.
 
   void keyPressEvent(QKeyEvent *event);
@@ -42,7 +45,8 @@ private:
     int timerId;
     unsigned char score; /* 26 : Unsinged char */
     unsigned char highscore;
-//    Food *food;
+    unsigned char oldScore;
+    Food *food; // door cherry kan deze gelezen worden
     Snake *snake;
     bool gameOver; /* 30 : 4 Usefull BOOL */
     bool gameStarted;
