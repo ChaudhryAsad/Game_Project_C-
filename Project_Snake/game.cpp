@@ -42,9 +42,9 @@ extern Game::~Game()
 //Er wordt telkens image bij gevoegd van snake als het meer score behaalt.
 //--------------------------------------------------------------------------
 
-void Game::paintEvent(QPaintEvent *event) /* 56 : GUI */
+void Game::paintEvent(QPaintEvent *event) /* 56 : GUI 31: pointer (*)*/
 {
-    QPainter painter(this);
+    QPainter painter(this);/*15: this*/
 
     if (gameOver)
     {
@@ -117,7 +117,8 @@ void Game::timerEvent(QTimerEvent *event)
 //Je kunt gewoon de pijlen van toesten bord gebruiken
 //--------------------------------------------------------------------------
 
-void Game::keyPressEvent(QKeyEvent *event)
+void Game::keyPressEvent(QKeyEvent *event)/*59: project that works with hardware */
+/// Keybord is used as harware
 {
     switch (event->key()) {
     case Qt::Key_Left:///Key_Q:
@@ -193,6 +194,7 @@ void Game::stopGame()
 //--------------------------------------------------------------------------
 // food,muis en mango worden verschillende plaatsen gegeneert
 // Als de snake food raakt wordt het destoryed
+//Er word een limit in gesteld zodat snake niet groter word als de kader
 //--------------------------------------------------------------------------
 
 void Game::checkCollision()

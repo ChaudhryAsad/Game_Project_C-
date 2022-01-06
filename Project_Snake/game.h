@@ -10,9 +10,6 @@
 #include <QPaintEvent>
 #include <QKeyEvent>
 
-QT_BEGIN_NAMESPACE
-namespace Ui { class Game; } // 2: useful class
-QT_END_NAMESPACE
 
 class Game : public QWidget // 2: usefull calss 3 : Useful encapsulation
 ///encapsulation wordt gedefinieerd als het samenbinden van de gegevens en de functies die ze manipuleren.
@@ -42,7 +39,6 @@ protected:
   void checkCollision();
 
 private:
-    Ui::Game *ui;
     int x;
     int timerId;
     unsigned char score; /* 26 : Unsinged char */
