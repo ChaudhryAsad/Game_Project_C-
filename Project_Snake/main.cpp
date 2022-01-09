@@ -1,4 +1,7 @@
-#include "game.h"
+#include "mainwindow.h"
+#include "game_screen.h"
+
+#include <QApplication>
 
 #include <QApplication> ///De klasse QApplication beheert de besturingsstroom en de belangrijkste instellingen van de GUI-toepassing.
 #include <QDesktopWidget> ///De klasse QDesktopWidget biedt toegang tot scherminformatie op systemen met meerdere koppen.
@@ -31,8 +34,7 @@ void center(QWidget &widget)
 int main(int argc, char *argv[]) /* Dit start het gui scherm */
 {
     QApplication app(argc, argv);
-
-    Game window;
+    MainWindow window;
     window.setWindowTitle("Snake");
     window.show();
     center(window);

@@ -1,10 +1,11 @@
 release/main.o
 release/cherry.o
 release/food.o
-release/game.o
-release/main.o
+release/game_screen.o
+release/mainwindow.o
 release/mango.o
 release/muis.o
 release/snake.o
 release/qrc_images.o
-release/moc_game.o
+release/moc_game_screen.o
+release/moc_mainwindow.o

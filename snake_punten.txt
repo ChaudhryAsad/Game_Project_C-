@@ -1,0 +1,40 @@
+Headers:
+Cherry.h:
+
+Regel 4  -> 25 : Seperated header file
+Regel 7  -> 23 : Namespaces
+Regel 11 -> 11 : Defualt Constructor
+Regel 15 -> 12 : parameterized Constructor
+
+food.h
+Regel 4  -> 37 : QT class
+Regel 7  -> 7  : Base class
+Regel 12 -> 12 : parameterized Constructor
+Regel 15 -> 14 : Deconstructor
+Regel 17 -> 9 : Virtual Function
+Regel 23 -> 16 : Member Function
+Regel 31 -> 20 : Protection
+Regel 32 -> 18 : Member Variabel
+Regel 37 -> 26 : Unsigned Char
+
+game.h
+Regel 14 -> 2: usefull calss 3 : Useful encapsulation
+Regel 19 -> 16 : useful member function , 46 : NULLPTR
+Regel 22 -> 14 : Destructor
+Regel 29 -> 49 : useful usage of signals/slots
+Regel 43 -> 26 : Unsinged char
+Regel 47 -> 30 : 4 Usefull BOOL
+
+mango.h
+Regel 08 -> 11 : Default Constructor
+
+muis.h
+Regel 09 -> 11 : Default Constructor
+Regel 10 -> 12 : Parameterized Constructor
+
+snake.h
+Regel 04 -> 37 : QT class*
+Regel 11 -> 2: usefull class
+Regel 15 -> 14 : destructors
+Regel 35 -> 36 : Container Class
+Regel 47 -> 28 : Const references 4x

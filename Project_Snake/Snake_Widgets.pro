@@ -13,7 +13,8 @@ TEMPLATE = app
 SOURCES += main.cpp\
     cherry.cpp \
     food.cpp \
-    game.cpp \
+    game_screen.cpp \
+    mainwindow.cpp \
     mango.cpp \
     muis.cpp \
     snake.cpp
@@ -21,13 +22,15 @@ SOURCES += main.cpp\
 HEADERS += \
     cherry.h \
     food.h \
-    game.h \
+    game_screen.h \
+    mainwindow.h \
     mango.h \
     muis.h \
     snake.h
 
 FORMS += \
-    game.ui
+    game_screen.ui \
+    mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
