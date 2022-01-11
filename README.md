@@ -1,8 +1,11 @@
 # Game_Project_C++
 
 ## Introduction
-Hier komt direct de bullshit
 
+For the course C++, we could choose if we wanted to make a game or an assignment. Because I like to turn theory into practice, I choose to design a game called ‘Snake’. 
+At first I couldn’t choose between this game and Tetris. These are both very different to design. The reason I choose for ‘Snake’ is because this was technically the most challenging to do. I feel like you have to raise the bar for yourself in order to really understand the theory behind it. 
+First I analyzed how the game exactly worked. With this information, I created the game in a minimalistic way to be sure that I would completely understand it. After that I elaborated it in detail. This was challenging, but I tried searching as much information as possible on the internet.
+I had fun creating this game, and I hope you will enjoy it too! Below you will find the game details.
 
 ## Beginner guide to open a project in QT
 
