@@ -31,7 +31,7 @@ Hier komt direct de bullshit
   <p align="center"><img src="./Screenshots/login.png"></p>
   
   * username = Snake and password = Snake.
-  * If you enterd the correct username and password a messagebox will appear.
+  * If you enter the correct username and password a messagebox will appear.
   
   * Now the Game (Dialog) window will appear.
   
