@@ -40,7 +40,7 @@ Hier komt direct de bullshit
    * Press space to start the game.
    * To move the snake you can press the arrow key.
    * On the left and right side you can see the old score and new score of the player.
-   * There are 3 types of fruits in the game and each of them give the player different score based on the difficulty.
+   * There are 2 types of fruits in the game and each of them give the player different score based on the difficulty.
   
   <p align="center"><img src="./Project_Snake/images/cherry.png"></p>
   
@@ -52,7 +52,7 @@ Hier komt direct de bullshit
   
   <p align="center"><img src="./Project_Snake/images/mouse.png"></p>
   
-  * The last one is a mouse the favourite of the snake and it give you 4 points and only appears (5%).
+  * The last one is a mouse the favourite food of the snake and it give you 4 points and only appears (5%).
   
   **Note:**
 Snake only get bigger with +1 and there is a limit how big the snake can get.
