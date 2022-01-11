@@ -1,7 +1,7 @@
 # Game_Project_C++
 
 ## Introduction
-
+Hier komt direct de bullshit
 
 
 ## Beginner guide to open a project in QT
