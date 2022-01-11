@@ -11,26 +11,26 @@ TEMPLATE = app
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += main.cpp\
+    Login.cpp \
     cherry.cpp \
     food.cpp \
     game_screen.cpp \
-    mainwindow.cpp \
     mango.cpp \
     muis.cpp \
     snake.cpp
 
 HEADERS += \
+    Login.h \
     cherry.h \
     food.h \
     game_screen.h \
-    mainwindow.h \
     mango.h \
     muis.h \
     snake.h
 
 FORMS += \
-    game_screen.ui \
-    mainwindow.ui
+    Login.ui \
+    game_screen.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -43,6 +43,7 @@ food1.png \
     images/cherry.png \
 images/food.png \
 images/food2.png \
+    images/logo.png \
     images/mango.png \
     images/mouse.png \
 images/snake.png \

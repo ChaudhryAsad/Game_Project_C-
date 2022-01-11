@@ -1,11 +1,11 @@
 debug/main.o
+debug/Login.o
 debug/cherry.o
 debug/food.o
 debug/game_screen.o
-debug/mainwindow.o
 debug/mango.o
 debug/muis.o
 debug/snake.o
 debug/qrc_images.o
+debug/moc_Login.o
 debug/moc_game_screen.o
-debug/moc_mainwindow.o

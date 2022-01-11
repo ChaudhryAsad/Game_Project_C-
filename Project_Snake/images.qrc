@@ -4,5 +4,6 @@
         <file>images/cherry.png</file>
         <file>images/mango.png</file>
         <file>images/mouse.png</file>
+        <file>images/logo.png</file>
     </qresource>
 </RCC>
