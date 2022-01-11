@@ -1,10 +1,6 @@
 #include "game_screen.h"
 #include "ui_game_screen.h"
-
 #include "food.h"
-#include "cherry.h"
-#include "mango.h"
-#include "muis.h"
 
 #include <QPainter> ///The QPainter class performs low-level painting on widgets and other paint devices
 #include <QApplication> ///The QApplication class manages the GUI application's control flow and main settings
@@ -217,11 +213,11 @@ void game_screen::checkCollision()
 
 
         case 0:
-            food = new Cherry((1+(rand()%6))*40+27, (1+(rand()%30))*10+47);
+            food = new Cherry((1+(rand()%6))*40+27, (1+(rand()%15))*10+47);
             break;
 
         case 1:// komt minst vaak voor
-            food = new Muis((1+(rand()%1))*40+27, (1+(rand()%10))*10+47);
+            food = new Muis((1+(rand()%1))*40+27, (1+(rand()%5))*10+47);
              break;
 
         case 2:

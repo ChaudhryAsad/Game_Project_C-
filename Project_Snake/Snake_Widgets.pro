@@ -12,20 +12,14 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
     Login.cpp \
-    cherry.cpp \
     food.cpp \
     game_screen.cpp \
-    mango.cpp \
-    muis.cpp \
     snake.cpp
 
 HEADERS += \
     Login.h \
-    cherry.h \
     food.h \
     game_screen.h \
-    mango.h \
-    muis.h \
     snake.h
 
 FORMS += \

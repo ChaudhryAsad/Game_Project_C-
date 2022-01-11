@@ -38,3 +38,8 @@ Regel 11 -> 2: usefull class
 Regel 15 -> 14 : destructors
 Regel 35 -> 36 : Container Class
 Regel 47 -> 28 : Const references 4x
+-------------------------------------------------------------------------------------
+Source:
+cherty.cpp
+
+
