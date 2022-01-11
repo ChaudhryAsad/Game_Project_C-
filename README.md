@@ -10,6 +10,8 @@
 <summary>Click to expand the Beginner Guid </summary> 
 
   **Step by step guide**
+  * Install Qt on your desktop.
+  * Here is the link to download Qt: https://www.qt.io/download
   * Download the folder Object_Oriented_Project in Github as zip.
   * Zip the folder on you computer and make sure every file is in de same folder
   * Open the folder Project_Snake
