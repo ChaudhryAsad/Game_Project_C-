@@ -48,7 +48,7 @@
   
   * The second one is a mango and it gives you 2 point and it appears (15%) in the game.
   
-    <p align="center"><img src="./Project_Snake/images/mouse.png"></p>
+  <p align="center"><img src="./Project_Snake/images/mouse.png"></p>
   
   * The last one is a mouse the favourite of the snake and it give you 4 points and only appears (5%).
   
