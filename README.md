@@ -4,8 +4,9 @@
 
 
 ## Beginner guide to open a project in QT
+
 <details>
-<summary>Click to expand the folder</summary> 
+<summary>Click to expand the Guid folder</summary> 
 
   **Step by step guide**
   * Download the folder Object_Oriented_Project in Github as zip.
@@ -15,4 +16,32 @@
   
 <p align="center"><img src="./Screenshots/Snake_widget.png"></p>
 
-
+## Game Instructions
+ 
+ <details>
+<summary>Click to expand the Game folder</summary> 
+  
+  **Step by step guide**
+  * Press play in QT and A login (main window) window will appear.
+  * You have give the username and password otherwise it won't open the game window.
+  <p align="center"><img src="./Screenshots/login.png"></p>
+  * username = Snake and password = Snake.
+  * If you enterd the correct username and password a messagebox will appear.
+  
+  * Now the Game (Dialog) window will appear.
+  <p align="center"><img src="./Screenshots/game_screen.png"></p>
+  
+   * Press space to start the game.
+   * To move the snake you can press the arrow key.
+   * On the left and right sight you can see the old score and new score of the player.
+   * There are 3 types friuts in the game and each of them give the player different score based on the difficulty.
+  
+  <p align="center"><img src="./Project_Snake/images/cherry.png"></p>
+  * The first one is cherry and it gives you 1 point and it appears most of the time (30%)
+  
+  
+  
+  
+  
+  
+  
