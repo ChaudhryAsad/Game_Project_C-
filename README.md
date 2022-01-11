@@ -39,8 +39,8 @@ Hier komt direct de bullshit
   
    * Press space to start the game.
    * To move the snake you can press the arrow key.
-   * On the left and right sight you can see the old score and new score of the player.
-   * There are 3 types friut in the game and each of them give the player different score based on the difficulty.
+   * On the left and right side you can see the old score and new score of the player.
+   * There are 3 types of fruits in the game and each of them give the player different score based on the difficulty.
   
   <p align="center"><img src="./Project_Snake/images/cherry.png"></p>
   
