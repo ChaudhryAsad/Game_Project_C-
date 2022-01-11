@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[13];
-    char stringdata0[255];
+    QByteArrayData data[3];
+    char stringdata0[40];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -34,26 +34,11 @@ static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_MainWindow = {
     {
 QT_MOC_LITERAL(0, 0, 10), // "MainWindow"
 QT_MOC_LITERAL(1, 11, 27), // "on_pushButton_login_clicked"
-QT_MOC_LITERAL(2, 39, 0), // ""
-QT_MOC_LITERAL(3, 40, 36), // "on_widget_customContextMenuRe..."
-QT_MOC_LITERAL(4, 77, 3), // "pos"
-QT_MOC_LITERAL(5, 81, 33), // "on_graphicsView_rubberBandCha..."
-QT_MOC_LITERAL(6, 115, 12), // "viewportRect"
-QT_MOC_LITERAL(7, 128, 14), // "fromScenePoint"
-QT_MOC_LITERAL(8, 143, 12), // "toScenePoint"
-QT_MOC_LITERAL(9, 156, 30), // "on_openGLWidget_aboutToCompose"
-QT_MOC_LITERAL(10, 187, 35), // "on_frame_customContextMenuReq..."
-QT_MOC_LITERAL(11, 223, 26), // "on_label_pic_linkActivated"
-QT_MOC_LITERAL(12, 250, 4) // "link"
+QT_MOC_LITERAL(2, 39, 0) // ""
 
     },
     "MainWindow\0on_pushButton_login_clicked\0"
-    "\0on_widget_customContextMenuRequested\0"
-    "pos\0on_graphicsView_rubberBandChanged\0"
-    "viewportRect\0fromScenePoint\0toScenePoint\0"
-    "on_openGLWidget_aboutToCompose\0"
-    "on_frame_customContextMenuRequested\0"
-    "on_label_pic_linkActivated\0link"
+    ""
 };
 #undef QT_MOC_LITERAL
 
@@ -63,7 +48,7 @@ static const uint qt_meta_data_MainWindow[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       6,   14, // methods
+       1,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -71,20 +56,10 @@ static const uint qt_meta_data_MainWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   44,    2, 0x08 /* Private */,
-       3,    1,   45,    2, 0x08 /* Private */,
-       5,    3,   48,    2, 0x08 /* Private */,
-       9,    0,   55,    2, 0x08 /* Private */,
-      10,    1,   56,    2, 0x08 /* Private */,
-      11,    1,   59,    2, 0x08 /* Private */,
+       1,    0,   19,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QPoint,    4,
-    QMetaType::Void, QMetaType::QRect, QMetaType::QPointF, QMetaType::QPointF,    6,    7,    8,
-    QMetaType::Void,
-    QMetaType::Void, QMetaType::QPoint,    4,
-    QMetaType::Void, QMetaType::QString,   12,
 
        0        // eod
 };
@@ -96,10 +71,10 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->on_pushButton_login_clicked(); break;
-        case 5: _t->on_label_pic_linkActivated((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         default: ;
         }
     }
+    Q_UNUSED(_a);
 }
 
 QT_INIT_METAOBJECT const QMetaObject MainWindow::staticMetaObject = { {
@@ -131,13 +106,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 6)
+        if (_id < 1)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        _id -= 1;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 6)
+        if (_id < 1)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 6;
+        _id -= 1;
     }
     return _id;
 }

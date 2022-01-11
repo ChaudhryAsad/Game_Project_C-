@@ -19,16 +19,6 @@ public:
 private slots:
     void on_pushButton_login_clicked();
 
-    void on_widget_customContextMenuRequested(const QPoint &pos);
-
-    void on_graphicsView_rubberBandChanged(const QRect &viewportRect, const QPointF &fromScenePoint, const QPointF &toScenePoint);
-
-    void on_openGLWidget_aboutToCompose();
-
-    void on_frame_customContextMenuRequested(const QPoint &pos);
-
-    void on_label_pic_linkActivated(const QString &link);
-
 private:
     Ui::MainWindow *ui;
     game_screen *game_screen;

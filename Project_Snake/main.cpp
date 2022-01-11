@@ -1,5 +1,4 @@
 #include "Login.h"
-
 #include "game_screen.h"
 
 #include <QApplication> ///De klasse QApplication beheert de besturingsstroom en de belangrijkste instellingen van de GUI-toepassing.

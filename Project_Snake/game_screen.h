@@ -8,7 +8,7 @@
 #include <QKeyEvent>
 #include <QWidget>
 #include <QPaintEvent>
-#include <QKeyEvent>
+
 
 namespace Ui {
 class game_screen;

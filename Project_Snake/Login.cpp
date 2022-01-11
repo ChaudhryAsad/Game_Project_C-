@@ -53,10 +53,3 @@ void MainWindow::on_pushButton_login_clicked()
 }
 
 
-
-
-
-void MainWindow::on_label_pic_linkActivated(const QString &link)
-{
-
-}

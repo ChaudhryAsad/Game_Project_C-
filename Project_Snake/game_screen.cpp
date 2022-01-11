@@ -89,7 +89,7 @@ void game_screen::paintEvent(QPaintEvent *event) /* 56 : GUI 31: pointer (*)*/
 //Er wordt telkens new fruit aan gemaakt
 //--------------------------------------------------------------------------
         painter.setFont(font);
-        painter.drawText(QPoint(w/-110, 10), "Old score: " + QString::number(highscore));
+        painter.drawText(QPoint(w/-140, 10), "Old score: " + QString::number(highscore));
         painter.drawText(QPoint(w/2, 10), "Score: " + QString::number(score));
         painter.drawImage(food->getRect(), food->getImage());
 
